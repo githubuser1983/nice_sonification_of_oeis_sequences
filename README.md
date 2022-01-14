@@ -2,8 +2,11 @@ Nice sonification of OEIS sequences:
 
 To sonify a sequence, first copy from configurations a yaml file you like.
 Then change:
+
    the name of the file
+   
    the name of the midi-file
+   
    the sequence (which you can copy and paste from the corresponding OEIS-page)
 
 You can also change the start note, etc.
