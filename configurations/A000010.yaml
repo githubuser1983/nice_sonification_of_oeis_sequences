@@ -1,0 +1,18 @@
+instrumentName: Grand Piano
+knn_is_reverse: true
+loopKnn: True
+max_nr_knn : 8
+min_nr_knn : 1
+start_pitch : 60
+start_volume : 32
+start_duration : 0.5
+start_is_rest : 0
+tempo : 120
+sequence_modulo: 8
+soundfont: /usr/share/sounds/sf3/MuseScore_General.sf3
+midiFileName: ./midi/A000010.mid
+knn_model: ./knn_models/knn-1_2_3_4.pkl
+# sonification of the OEIS-Sequence:
+# http://oeis.org/A000010
+sequence: 1, 1, 2, 2, 4, 2, 6, 4, 6, 4, 10, 4, 12, 6, 8, 8, 16, 6, 18, 8, 12, 10, 22, 8, 20, 12, 18, 12, 28, 8, 30, 16, 20, 16, 24, 12, 36, 18, 24, 16, 40, 12, 42, 20, 24, 22, 46, 16, 42, 20, 32, 24, 52, 18, 40, 24, 36, 28, 58, 16, 60, 30, 36, 32, 48, 20, 66, 32, 44 
+    

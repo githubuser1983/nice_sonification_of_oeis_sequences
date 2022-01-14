@@ -1,0 +1,18 @@
+instrumentName: Grand Piano
+knn_is_reverse: true
+loopKnn: True
+max_nr_knn : 12
+min_nr_knn : 1
+start_pitch : 72
+start_volume : 48
+start_duration : 2.0
+start_is_rest : 0
+tempo : 120
+sequence_modulo: 12
+soundfont: /usr/share/sounds/sf3/MuseScore_General.sf3
+midiFileName: ./midi/A000040.mid
+knn_model: ./knn_models/knn-2_3_4_1.6.pkl
+# sonification of the OEIS-Sequence the prime numbers:
+# http://oeis.org/A000040
+sequence: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271
+    
